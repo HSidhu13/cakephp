@@ -27,6 +27,18 @@
             <td><?= h($pizza->toppings) ?></td>
         </tr>
         <tr>
+            <th><?= __('Pickup Or Delivery') ?></th>
+            <td><?= h($pizza->pickup_or_delivery) ?></td>
+        </tr>
+        <tr>
+            <th><?= __('Address') ?></th>
+            <td><?= h($pizza->Address) ?></td>
+        </tr>
+        <tr>
+            <th><?= __('Telephone') ?></th>
+            <td><?= h($pizza->telephone) ?></td>
+        </tr>
+        <tr>
             <th><?= __('Id') ?></th>
             <td><?= $this->Number->format($pizza->id) ?></td>
         </tr>

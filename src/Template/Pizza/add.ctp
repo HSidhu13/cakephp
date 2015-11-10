@@ -10,12 +10,20 @@
         <legend><?= __('Add Pizza') ?></legend>
         <?php
             echo $this->Form->input('quantity');
-            echo $this->Form->input('pizza_size');
-            echo $this->Form->input('crust_type');
+            echo $this->Form->input('pizza_size', [
+            'options' => ['Small' => 'Small', 'Medium' => 'Medium','Large' => 'Large', 'XLarge' => 'XLarge']
+        ]) ;
+            echo $this->Form->input('crust_type', [
+            'options' => ['Hand Tossed' => 'Hand Tossed', 'Pan' => 'Pan','Stuffed' => 'Stuffed', 'Thin' => 'Thin']
+        ]) ;
             echo $this->Form->input('toppings');
+            echo $this->Form->input('pickup_or_delivery', [
+            'options' => ['PickUp' => 'PickUp', 'Delivery' => 'Delivery']
+        ]) ;
+            echo $this->Form->input('Address');
+            echo $this->Form->input('telephone');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
-	<?= $this->Form->button(__('Reset')) ?>
     <?= $this->Form->end() ?>
 </div>

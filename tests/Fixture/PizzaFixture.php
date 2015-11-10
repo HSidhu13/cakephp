@@ -29,6 +29,9 @@ class PizzaFixture extends TestFixture
         'pizza_size' => ['type' => 'string', 'length' => 20, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
         'crust_type' => ['type' => 'string', 'length' => 20, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
         'toppings' => ['type' => 'string', 'length' => 50, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
+        'pickup_or_delivery' => ['type' => 'string', 'length' => 50, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
+        'Address' => ['type' => 'string', 'length' => 100, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
+        'telephone' => ['type' => 'string', 'length' => 14, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['id'], 'length' => []],
         ],
@@ -50,7 +53,10 @@ class PizzaFixture extends TestFixture
             'quantity' => 'Lorem ipsum dolor ',
             'pizza_size' => 'Lorem ipsum dolor ',
             'crust_type' => 'Lorem ipsum dolor ',
-            'toppings' => 'Lorem ipsum dolor sit amet'
+            'toppings' => 'Lorem ipsum dolor sit amet',
+            'pickup_or_delivery' => 'Lorem ipsum dolor sit amet',
+            'Address' => 'Lorem ipsum dolor sit amet',
+            'telephone' => 'Lorem ipsum '
         ],
     ];
 }

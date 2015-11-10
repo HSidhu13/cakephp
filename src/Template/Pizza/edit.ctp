@@ -19,6 +19,9 @@
             echo $this->Form->input('pizza_size');
             echo $this->Form->input('crust_type');
             echo $this->Form->input('toppings');
+            echo $this->Form->input('pickup_or_delivery');
+            echo $this->Form->input('Address');
+            echo $this->Form->input('telephone');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

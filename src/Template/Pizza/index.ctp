@@ -14,6 +14,8 @@
                 <th><?= $this->Paginator->sort('pizza_size') ?></th>
                 <th><?= $this->Paginator->sort('crust_type') ?></th>
                 <th><?= $this->Paginator->sort('toppings') ?></th>
+                <th><?= $this->Paginator->sort('pickup_or_delivery') ?></th>
+                <th><?= $this->Paginator->sort('Address') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -25,6 +27,8 @@
                 <td><?= h($pizza->pizza_size) ?></td>
                 <td><?= h($pizza->crust_type) ?></td>
                 <td><?= h($pizza->toppings) ?></td>
+                <td><?= h($pizza->pickup_or_delivery) ?></td>
+                <td><?= h($pizza->Address) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $pizza->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $pizza->id]) ?>

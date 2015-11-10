@@ -14,3 +14,61 @@ Stack Trace:
 #2 {main}
 
 
+2015-11-10 06:50:30 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp1\htdocs\cakephp\src\Template\Pizza\add.ctp, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:50:30 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp1\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp1\\htdoc...', 23)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 06:55:12 Error: Fatal Error (4): syntax error, unexpected 'type' (T_STRING), expecting ',' or ';' in [C:\xampp1\htdocs\cakephp\src\Template\Pizza\add.ctp, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-11-10 06:55:13 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'type' (T_STRING), expecting ',' or ';'
+Request URL: /cakephp/pizza/add
+Stack Trace:
+#0 C:\xampp1\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp1\\htdoc...', 22)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-11-10 07:14:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home could not be found.
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/home
+Stack Trace:
+#0 C:\xampp1\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 07:18:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home could not be found.
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/home
+Stack Trace:
+#0 C:\xampp1\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
